@@ -1,0 +1,71 @@
+.bar {
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.bar .bar_link {
+	float: left;
+	display: block;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 25px;
+}
+.bar .bar_link:hover .bar_link.active{
+	color: #fff;
+	background: #2a2a2a;
+}
+@font-face {
+	font-family: "title_font";
+	src: url(HomeVideo-BLG6G.ttf);
+}
+body {
+	background-color: #000;
+}
+.m_title {
+font-size: 100px;
+}
+.s_title {
+font-size : 75px;
+margin-left: 35px;
+}
+.m_title, .s_title {
+	font-family: "title_font";
+	color: #0f0
+}
+.article_title {
+	font-family: "title_font";
+	text-decoration: none;
+	color: #fff;
+	font-size: 40px;
+	margin: 0;
+	flex: 1;
+	text-align: left;
+}
+.article_title.active .article_title:hover {
+	color: #fff;
+	background: #2a2a2a;
+}
+.article_container {
+    max-width: 800px;
+    margin: 0;
+    padding: 20px;
+	margin-left: 70px;
+}
+.article_image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.article_card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 8px;
+	margin-top: 100px;
+	flex-direction: row-reverse;
+}
